@@ -1,0 +1,6 @@
+*   f2b9cd5 chore: merge branch v1 and v2
+|\  
+| * f927fb2 feat: add versi 1
+* | 0600506 feat: add versi 2
+|/  
+* 1bf2fa1 inisiasi github
