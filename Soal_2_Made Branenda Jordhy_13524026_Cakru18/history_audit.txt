@@ -1,0 +1,16 @@
+ 1040  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+ 1041  cat compiler_trace.log
+ 1042  mkdir ~/recovery_ops && cd ~/recovery_ops
+ 1043  curl -o system_raw.txt https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+ 1044  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+ 1045  rm system_raw.txt
+ 1046  cat recovered_sector.txt
+ 1047  code .
+ 1048  history | tail -n 30 > history_audit.txt
+ 1049  cd ../
+ 1050  history | tail -n 30 > history_audit.txt
+ 1051  ls
+ 1052  cd Developer
+ 1053  cd URO
+ 1054  ls
+ 1055  cd Sekuro
